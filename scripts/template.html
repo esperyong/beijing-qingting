@@ -479,7 +479,7 @@ function monthsHtml(sp){
     '<p class="muted" style="font-size:12.5px;margin-top:4px">'+(useBj?'iNaturalist 北京记录的月份分布':'北京记录太少，这里显示全国记录的月份分布（灰）')+'</p>';
 }
 function galCap(sp, p){
-  return '<b style="color:#fff">'+esc(sexLabel(p))+'</b> · '+esc(p.place||"")+(p.date?' · '+esc(p.date):'')+'<br>© '+esc(p.by)+' · '+esc(p.lic)+' · <a href="'+esc(p.link)+'" target="_blank" rel="noopener">来源</a>';
+  return '<b style="color:#fff">'+esc(sexLabel(p))+'</b>'+(p.place?' · '+esc(p.place):'')+(p.date?' · '+esc(p.date):'')+'<br>© '+esc(p.by)+' · '+esc(p.lic)+' · <a href="'+esc(p.link)+'" target="_blank" rel="noopener">来源</a>';
 }
 function openSheet(id, push){
   var sp = SP[id]; if (!sp) return;
@@ -487,7 +487,7 @@ function openSheet(id, push){
   var p0 = sp.photos[0];
   var gal = sp.photos.length ?
     '<div class="main"><button type="button" id="sg-main" data-lb="'+sp.id+':0"><img id="sg-img" src="'+p0.m+'" alt="'+esc(sp.cn)+'"></button></div>'+
-    (sp.photos.length>1?'<div class="thumbs">'+sp.photos.map(function(p,i){ return '<button type="button" data-th="'+i+'" aria-current="'+(i===0)+'" aria-label="'+esc(sexLabel(p))+'"><img loading="lazy" src="'+p.s+'" alt=""><span class="mark">'+esc(SX[p.sex]||"")+(p.form?" "+esc(p.form):"")+'</span></button>'; }).join("")+'</div>':'')+
+    (sp.photos.length>1?'<div class="thumbs">'+sp.photos.map(function(p,i){ return '<button type="button" data-th="'+i+'" aria-current="'+(i===0)+'" aria-label="'+esc(sexLabel(p))+'"><img loading="lazy" src="'+p.s+'" alt=""><span class="mark">'+esc(SX[p.sex]||"成虫")+(p.form?" "+esc(p.form):"")+'</span></button>'; }).join("")+'</div>':'')+
     '<div class="gal-cap" id="sg-cap">'+galCap(sp,p0)+'</div>'
     : '<div class="main">'+emptyBox(D.missingText.species)+'</div>';
   var tiers = sp.tiers.map(function(t){ return '<span class="t-'+t.tier+'"><span class="stig sm"><i>'+t.tier+'</i></span>'+esc(D.tierTitle[t.tier])+' · '+esc(sexLabel(t))+'</span>'; }).join("");
