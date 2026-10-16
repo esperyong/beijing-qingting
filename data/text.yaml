@@ -1,0 +1,233 @@
+# 页面文案。HTML 片段里的 {n_xxx} 由 build.py 填数字；{{MAP}} 换成总览地图。
+
+hero: {sp: 23, i: 0, pos: "50% 12%"}
+
+lede: >-
+  老姜（北京蜻蜓社社长）统计的北京蜻蜓名单共 <b>84</b> 条，又按“种 + 性别 + 色型”分成
+  <b>S 传说、A 罕见、B 少见、C 常见</b> 四级，共 116 条。这一页逐条核对了学名和分类现状，
+  配上可公开使用的照片和 iNaturalist 上的北京记录。
+
+suborders:
+  Anisoptera: 差翅亚目 · 蜻蜓
+  Zygoptera: 均翅亚目 · 豆娘
+
+verdict_labels:
+  valid: 有效种
+  renamed: 学名已更新
+  undetermined: 待定种
+  doubtful: 需要核实
+
+missing:
+  species: 暂时没有找到可以公开使用的照片。
+  雌雄同体: 雌雄同体：同一只个体左右或前后分别长成雄性和雌性的样子，极罕见。没有找到可公开使用的照片。
+  同色系: 同色系雌性：雌性长出了和雄性一样的体色。暂时没有找到这个色型可公开使用的照片。
+  黄色型: 暂时没有找到黄色型雌性可公开使用的照片。
+  绿色型: 暂时没有找到绿色型雌性可公开使用的照片。
+  未成熟: 暂时没有找到未成熟雄性可公开使用的照片。
+  拓蓝籽: 社里对一种罕见雄性个体的叫法，暂时没有找到对应照片。
+
+tiers:
+  S:
+    short: 北京只有零星记录，见一次能记很久
+    desc: >-
+      多数是北京只有一两笔可靠记录的种类：南方偶尔飞来的迷途个体、北方高山湿地的边缘分布种，
+      还有极少出现的雌性色型和雌雄同体个体。
+  A:
+    short: 每年只在少数地点、少数几天碰得到
+    desc: >-
+      北京有稳定的小种群或固定点位，但数量少、发生期短，或者只有某一性别、某一色型特别难见。
+  B:
+    short: 知道去哪找、季节对了能找到
+    desc: >-
+      分布在特定生境（山溪、水库、挺水植物多的池塘）的种类，以及常见种里比较难遇到的那一性别或色型。
+  C:
+    short: 季节对了，公园水边就能看到
+    desc: >-
+      北京的公园湖泊、河道和山区溪流里，在合适季节稳定能看到的种类和色型。
+
+families:
+  Aeshnidae:
+    cn: 蜓科
+    suborder: Anisoptera
+    desc: 体型大、飞行能力最强。复眼在头顶大面积相接，常沿水边长时间巡飞，停落时多挂在枝叶上。
+  Gomphidae:
+    cn: 春蜓科
+    suborder: Anisoptera
+    desc: 复眼在头顶彼此分开，这是和其他蜻蜓最好认的区别。多数黄黑相间，喜欢停在河边石头、地面或水中枝头上。
+  Cordulegastridae:
+    cn: 大蜓科
+    suborder: Anisoptera
+    desc: 黑黄相间的大个子，复眼在头顶只碰到一点。雌性腹末有长长的产卵器，沿山间小溪低飞巡逻，竖着身子把卵插进溪底泥沙。
+  Corduliidae:
+    cn: 伪蜻科
+    suborder: Anisoptera
+    desc: 中型，身体常带金属绿光，复眼翠绿。北京的种类多出没于山地林间溪流和水草丰富的池塘，个体少、季节短。
+  Macromiidae:
+    cn: 大伪蜻科
+    suborder: Anisoptera
+    desc: 腿很长，黑底黄斑，复眼碧绿。雄性沿河道来回高速巡飞，很少停下，是最难拍的一类。
+  Libellulidae:
+    cn: 蜻科
+    suborder: Anisoptera
+    desc: 种类最多、最常见的一科。停落时四翅平展。很多种雄性成熟后会变红，或者身上覆一层蓝白色粉霜。北京秋天成片的红蜻蜓多是赤蜻属。
+  Calopterygidae:
+    cn: 色蟌科
+    suborder: Zygoptera
+    desc: 大型豆娘，翅宽而有色，身体有金属光泽。停在溪边植物上时翅合拢竖起，飞起来一扇一扇的，像蝴蝶。
+  Lestidae:
+    cn: 丝蟌科
+    suborder: Zygoptera
+    desc: 中型豆娘。丝蟌属停落时翅半张开；黄丝蟌属翅合拢，而且以成虫越冬，是早春最先出现的豆娘。
+  Platycnemididae:
+    cn: 扇蟌科
+    suborder: Zygoptera
+    desc: 小型豆娘。扇蟌属雄性的中、后足胫节扩大成白色的“小扇子”，求偶时会亮出来。
+  Coenagrionidae:
+    cn: 蟌科
+    suborder: Zygoptera
+    desc: 最常见的小型豆娘，以蓝、绿、橙色为主，翅透明狭长。池塘湖边的草丛里常成群出现，雌性往往有好几种色型。
+
+shots:
+  - [All.jpg, 北京蜻蜓名单（84 条）, 老姜统计的完整名单，本页编号与它一致。]
+  - [SClass.jpg, S 级（传说）21 条, 分级以“种 + 性别 + 色型”为单位。]
+  - [Aclass.jpg, A 级（罕见）21 条, ""]
+  - [Bclass.jpg, B 级（少见）24 条, ""]
+  - [CClass.jpg, C 级（常见）50 条, ""]
+
+primer: |-
+  <div>
+    <h2>蜻蜓还是豆娘</h2>
+    <p>名单里的 84 条分属两大类。看停落姿势和眼睛，几秒钟就能分开。</p>
+    <div class="bodyplan">
+      <figure>
+        <svg viewBox="0 0 240 158" role="img" aria-label="蜻蜓俯视示意图">
+          <g transform="rotate(-3 120 40)"><ellipse class="sv-wing" cx="74" cy="40" rx="45" ry="7.5"/></g>
+          <g transform="rotate(3 120 40)"><ellipse class="sv-wing" cx="166" cy="40" rx="45" ry="7.5"/></g>
+          <path class="sv-wing" d="M116 54 C96 46 58 48 34 56 C30 60 34 64 44 65 C70 67 100 64 116 60Z"/>
+          <path class="sv-wing" d="M124 54 C144 46 182 48 206 56 C210 60 206 64 196 65 C170 67 140 64 124 60Z"/>
+          <rect class="sv-stig" x="35" y="38.5" width="7" height="3" rx=".6" transform="rotate(-3 120 40)"/>
+          <rect class="sv-stig" x="198" y="38.5" width="7" height="3" rx=".6" transform="rotate(3 120 40)"/>
+          <rect class="sv-stig" x="38" y="56" width="7" height="3" rx=".6"/>
+          <rect class="sv-stig" x="195" y="56" width="7" height="3" rx=".6"/>
+          <circle class="sv-eye" cx="113.2" cy="21" r="7.2"/><circle class="sv-eye" cx="126.8" cy="21" r="7.2"/>
+          <ellipse class="sv-body" cx="120" cy="44" rx="8" ry="13"/>
+          <rect class="sv-body" x="117.6" y="56" width="4.8" height="88" rx="2.4"/>
+          <path class="sv-lead" d="M128 14 L146 8"/><text class="sv-lab" x="148" y="11">复眼相接</text>
+          <path class="sv-lead" d="M203 40 L214 16"/><text class="sv-lab" x="206" y="11">翅痣</text>
+          <path class="sv-lead" d="M60 64 L40 84"/><text class="sv-lab" x="6" y="96">后翅基部宽</text>
+          <path class="sv-lead" d="M124 100 L150 100"/><text class="sv-lab" x="153" y="104">腹部 10 节</text>
+        </svg>
+        <figcaption><b>蜻蜓</b>停落时四翅平展；后翅基部比前翅宽；复眼大多在头顶相接（春蜓科例外）。</figcaption>
+      </figure>
+      <figure>
+        <svg viewBox="0 0 240 158" role="img" aria-label="豆娘俯视示意图">
+          <ellipse class="sv-wing" cx="124" cy="84" rx="4.2" ry="40"/>
+          <ellipse class="sv-wing" cx="121" cy="86" rx="4.2" ry="40"/>
+          <rect class="sv-stig" x="119.8" y="117" width="3.4" height="6" rx=".6"/>
+          <ellipse class="sv-body" cx="120" cy="22" rx="15" ry="4.5"/>
+          <circle class="sv-eye" cx="105" cy="22" r="6"/><circle class="sv-eye" cx="135" cy="22" r="6"/>
+          <ellipse class="sv-body" cx="120" cy="37" rx="5.5" ry="10"/>
+          <rect class="sv-body" x="118.6" y="46" width="2.8" height="100" rx="1.4"/>
+          <path class="sv-lead" d="M141 20 L166 12"/><text class="sv-lab" x="168" y="15">复眼分得很开</text>
+          <path class="sv-lead" d="M126 70 L152 70"/><text class="sv-lab" x="155" y="66">四翅形状相近</text>
+          <text class="sv-lab" x="155" y="80">基部收窄成柄</text>
+          <path class="sv-lead" d="M116 92 L84 104"/><text class="sv-lab" x="12" y="108">停落时翅合拢</text>
+        </svg>
+        <figcaption><b>豆娘</b>身体细长，停落时翅大多合拢在背上（丝蟌属半张开）；两只复眼像哑铃一样分在头两侧。</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div>
+    <h2>分级看的是“种 + 性别 + 色型”</h2>
+    <p>同一种蜻蜓，雄性可能满街都是，雌性的某个色型却十年难遇。所以老姜的分级不是给“种”打分，而是给每一种雌雄和色型分别打分。</p>
+    <div class="example">
+      <div class="t-C"><span class="stig sm"><i>C</i></span>混合蜓 ♂　常见</div>
+      <div class="t-B"><span class="stig sm"><i>B</i></span>混合蜓 ♀ 黄色型　少见</div>
+      <div class="t-S"><span class="stig sm"><i>S</i></span>混合蜓 ♀ 同色系　传说</div>
+    </div>
+    <dl class="glossary">
+      <dt>同色系</dt><dd>雌性长成雄性的颜色（学术上叫“雄色型雌性”，andromorph）。</dd>
+      <dt>黄色型 / 绿色型</dt><dd>同一种雌性的不同底色，多数种只有一种常见。</dd>
+      <dt>雌雄同体</dt><dd>一只个体身上同时有雄性和雌性的特征，极罕见的发育异常。</dd>
+      <dt>指名亚种</dt><dd>和种名同名的那个亚种，比如 <span class="sci">Sympetrum eroticum eroticum</span>。</dd>
+    </dl>
+  </div>
+  <div>
+    <h2>名单核查结果</h2>
+    <p>逐条对照了世界蜻蜓名录（World Odonata List）、iNaturalist、GBIF 和原始论文。</p>
+    <div class="verdicts">
+      <button type="button" data-filter-status="valid" style="--vc:var(--c)"><b>{n_valid}</b><span>有效种，名字和学名都对得上<small>其中多数在 iNaturalist 上有北京记录</small></span></button>
+      <button type="button" data-filter-status="renamed" style="--vc:var(--b)"><b>{n_renamed}</b><span>学名已更新<small>近年分类调整换了属名或升为独立种，物种本身没问题</small></span></button>
+      <button type="button" data-filter-status="undetermined" style="--vc:var(--a)"><b>{n_undetermined}</b><span>待定种<small>还没有正式学名，名单里写作“待定种”或社里的叫法</small></span></button>
+      <button type="button" data-filter-status="doubtful" style="--vc:var(--a)"><b>{n_doubtful}</b><span>需要核实<small>名字和学名的对应有疑问，或北京记录缺少公开证据</small></span></button>
+    </div>
+    <p class="muted" style="font-size:13.5px;margin-top:10px">点任意一项进入“名录核查表”，可以看到每一条的依据。</p>
+  </div>
+
+overview: |-
+  <div>
+    <h2>北京记录点</h2>
+    <p>名单里这些种在 iNaturalist 上共有 {n_obs} 条北京记录，下图画的是其中坐标公开的 {n_pts} 个点。记录集中在城区公园、西山和北部山区溪流，这更多反映观察者去哪里，而不完全是蜻蜓在哪里。</p>
+    <p>北京蜻蜓社以后的“发现地图”会把社员自己的照片和点位放进来。到那时，S 级和 A 级种类的点位最好只显示到区县一级，避免小种群被过度打扰。</p>
+    <div class="legend"><span><i style="background:var(--dot)"></i>蜻蜓（差翅亚目）</span><span><i style="background:var(--dot2)"></i>豆娘（均翅亚目）</span></div>
+  </div>
+  <div class="mapwrap">{{MAP}}</div>
+
+notes: |-
+  <h2>名单原图</h2>
+  <p class="muted" style="font-size:14px">老姜在社群里发的五张截图。点开看原图。</p>
+  <div class="shots" id="shots"></div>
+  <div class="cols" style="margin-top:28px">
+    <div>
+      <h2>怎么核查的</h2>
+      <ul>
+        <li>名单的中文名沿用张浩淼《中国蜻蜓大图鉴》（2019），连“待定种 2”这样的编号也是书里的。先按这本书把 84 个名字对到学名。</li>
+        <li>再逐条对照<b>世界蜻蜓名录</b>（World Odonata List，2026-10-16 在线版），看学名是否仍然有效，属名有没有变，有没有被拆分或合并。</li>
+        <li>用 iNaturalist 和 GBIF 查北京有没有可核实的记录（有照片、有日期和地点）。查不到的标为“需要核实”。</li>
+        <li>属名变动和拆分合并，都追到了原始论文，列在右边。</li>
+      </ul>
+      <p style="font-size:14.5px"><b>“需要核实”不等于名单错了。</b>它只说明公开数据里还找不到证据。S 级种类本来就少，社员手里的照片很可能就是北京唯一的记录。这些照片值得上传到 iNaturalist，或者放进以后社里的发现地图。</p>
+      <h2 style="margin-top:20px">照片和数字</h2>
+      <ul>
+        <li>{n_photos} 张照片全部来自 iNaturalist 的研究级观察和 Wikimedia Commons，许可是 CC0、CC BY、CC BY-SA、CC BY-NC 或 CC BY-NC-SA。每张都标了作者、许可和原图页面。带 NC 的只能用于非商业用途。</li>
+        <li>照片上标“北京”的，是在北京拍的。没有北京照片时，用的是国内外同种的照片。</li>
+        <li>某种色型（同色系、黄色型）或雌雄同体找不到可公开使用的照片时，卡片上直接写明“暂无”，不拿别的照片凑数。</li>
+        <li>iNaturalist 记录数是 2026-10-16 查询的“可验证记录”数。它反映的是有多少人拍了、传了，不等于北京的真实数量。</li>
+      </ul>
+    </div>
+    <div>
+      <h2>来源</h2>
+      <ul class="src">
+        <li>老姜（北京蜻蜓社社长）：北京蜻蜓名单与 S/A/B/C 分级截图，本仓库 docs/images/beijing-qingting-classifications/</li>
+        <li>World Odonata List（Slater Museum of Natural History；OdonataCentral 接口，查询 2026-10-16） https://api.odonatacentral.org/wol/taxa/tree/</li>
+        <li>iNaturalist 物种、观察和月份统计接口（查询 2026-10-16） https://api.inaturalist.org/v1/</li>
+        <li>GBIF 物种匹配 https://www.gbif.org/</li>
+        <li>Wikimedia Commons https://commons.wikimedia.org/</li>
+        <li>张浩淼《中国蜻蜓大图鉴》，2019 https://book.douban.com/subject/30337389/</li>
+        <li>Kosterin 2023，Aeschnophlebia 与 Planaeschna 的属名问题，Zootaxa 5353(5) https://doi.org/10.11646/zootaxa.5353.5.8</li>
+        <li>Schneider et al. 2023，蜓科分子系统，Diversity 15:950 https://doi.org/10.3390/d15090950</li>
+        <li>Schneider et al. 2024，大蜓科分子系统（Thecagaster），Insects 15(8):622 https://doi.org/10.3390/insects15080622</li>
+        <li>Onishko et al. 2022，Aeshna soneharai 恢复为独立种，Odonatologica 51 https://doi.org/10.60024/odon.v51i1-2.a6</li>
+        <li>Onishko, Kosterin &amp; Voinov 2023，滨海边疆区蜻蜓（Anax julius 升为种），IDF-Report 177 https://www.researchgate.net/publication/368291294</li>
+        <li>Li &amp; Zhang 2018，中国金光伪蜻属分类订正，Munis Entomology &amp; Zoology 13(2) https://munisentzool.org/Issue/abstract/taxonomic-notes-on-the-dragonfly-genus-somatochlora-selys-1871-from-china-odonata-anisoptera-corduliidae_1192</li>
+        <li>Yu et al. 2024，大伪蜻属杂交，Zootaxa 5481(2) https://doi.org/10.11646/zootaxa.5481.2.5</li>
+        <li>Kosterin et al. 2025，Macromia hamata 并入 M. manchurica，Zootaxa 5620(4) https://doi.org/10.11646/zootaxa.5620.4.1</li>
+        <li>卧佛亚春蜓幼虫模式标本（康奈尔大学，GBIF） https://www.gbif.org/occurrence/6177458772</li>
+        <li>中国蜻蜓名录 https://china-odonata.top/</li>
+        <li>王琦、林美英等 2026，北京蜻蜓多样性（67 种），生物多样性 https://www.biodiversity-science.net/CN/10.17520/biods.2026074</li>
+        <li>新京报 2024，低斑蜻在海淀上庄水库被发现 https://m.bjnews.com.cn/detail/1718856085129844.html</li>
+        <li>墙根网，北京人怎么叫蜻蜓（老杆儿、老籽儿） https://culture.qianggen.net/2012/1230/31933.html</li>
+        <li>北京市行政区划边界：阿里云 DataV.GeoAtlas（GCJ-02，已转换为 WGS-84） https://geo.datav.aliyun.com/areas_v3/bound/110000_full.json</li>
+        <li>于昕 2025，奇异灰蜻 Orthetrum aberrans 新种描述，Zootaxa 5642(1) https://doi.org/10.11646/zootaxa.5642.1.8</li>
+        <li>于昕、Hämäläinen 2021，Copera tokyoensis 为 Pseudocopera rubripes 的异名，Odonatologica 50 https://china-odonata.top/article/23.html</li>
+        <li>Kiauta 1983 与 Higashi et al. 2001，红蜻 mariannae 亚种的染色体与分布 https://natuurtijdschriften.nl/pub/591630 、https://natuurtijdschriften.nl/pub/592358</li>
+        <li>Pilgrim &amp; von Dohlen 2007，条斑赤蜻东亚种群（imitoides）的分子研究 https://www.researchgate.net/publication/232689022</li>
+        <li>Lohr 2021，黑赛丽蜻在中国东北的记录 https://www.libellula.org/wp-content/uploads/2021/04/Supplement_16_Lohr.pdf</li>
+        <li>大黄赤蜻 1927 年燕京大学标本（GBIF） https://www.gbif.org/occurrence/search?taxon_key=1428355&amp;gadm_gid=CHN.2_1</li>
+        <li>北京绿色蟌的鉴定讨论（iNaturalist） https://www.inaturalist.org/observations/48976256 、https://www.inaturalist.org/observations/142449913</li>
+      </ul>
+    </div>
+  </div>
+footer: |-
+  最后更新：2026-10-16（第 1 版：84 条名单逐条核查学名，配 {n_photos} 张授权照片和 iNaturalist 北京记录）<br>
+  名单与分级：老姜（北京蜻蜓社）。数据在 data/*.yaml，页面由 scripts/build.py 生成。

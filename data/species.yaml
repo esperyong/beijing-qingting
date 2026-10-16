@@ -1,0 +1,1017 @@
+# 北京蜻蜓名录：老姜（北京蜻蜓社社长）统计的 84 条，顺序和编号照抄 docs/images/beijing-qingting-classifications/All.jpg。
+#
+# list_cn  名单原文（tiers.yaml 用它对应）
+# cn       页面上显示的名字（去掉括号里的别名）
+# sci      核查后的有效学名，author 是命名人和年份（以世界蜻蜓名录 WOL 为准，括号表示原属不同）
+# old      名单对应的旧学名（属名变动、拆分或合并前的写法）
+# family   科（WOL）
+# status   valid 有效种 / renamed 学名已更新 / undetermined 待定种 / doubtful 需要核实
+# verdict  核查结论；verdict_short 是名录表里的一句话版本
+# tips     怎么认；habitat 生境（北京的月份和地点由 build.py 从 iNaturalist 记录算出）
+# inat     iNaturalist 物种 id（不写时用 data/cache/taxa.json 里的匹配结果）
+
+# ---------------------------------------------------------------- 蜓科
+- id: 1
+  list_cn: 长痣绿蜓
+  cn: 长痣绿蜓
+  sci: Brachytron longistigma
+  author: (Selys, 1883)
+  old: Aeschnophlebia longistigma
+  family: Aeshnidae
+  status: renamed
+  verdict_short: 2023 年属名调整，Aeschnophlebia 改为 Brachytron
+  verdict: >-
+    物种和中文名都没问题，只是属名变了。2023 年 Kosterin 发现 <i>Aeschnophlebia</i> 属的模式种其实和黑额蜓属
+    <i>Planaeschna</i> 是同一类，于是“黑额蜓”们改用 <i>Aeschnophlebia</i> 这个更早的属名，原来的两种“绿蜓”
+    转入 <i>Brachytron</i>。世界蜻蜓名录和 iNaturalist 已经采用，国内图鉴多数还用旧名。
+  tips: 中型蜓，草绿色身体带黑色条纹；翅痣特别细长，名字由此而来。
+  habitat: 芦苇、香蒲茂密的池塘和湿地，常贴着挺水植物低飞，不容易看清。
+
+- id: 2
+  list_cn: 混合蜓
+  cn: 混合蜓
+  sci: Aeshna soneharai
+  author: Asahina, 1988
+  old: Aeshna mixta
+  family: Aeshnidae
+  status: renamed
+  inat: 1398282
+  verdict_short: 北京这种应为曾根原蜓 A. soneharai（2022 年从混合蜓拆出）
+  verdict: >-
+    北京的“混合蜓”应改称<b>曾根原蜓</b>。2022 年 Onishko 等人把东部种群从混合蜓 <i>Aeshna mixta</i>
+    中分出，恢复为独立种 <i>A. soneharai</i>，世界蜻蜓名录已采用。张浩淼《中国蜻蜓大图鉴》（2019）出版时还没有这次拆分，
+    所以国内很多资料仍叫混合蜓。iNaturalist 上曾根原蜓有 28 条北京记录，而 <i>A. mixta</i> 一条都没有。
+  tips: 中型蜓。雄性腹部有成对的蓝色斑点，第 2 腹节背面有一个黄色的“T”形斑。雌性多为黄绿色斑点（黄色型），少数是蓝色斑点（同色系）。
+  habitat: 夏末到秋季出现，常在林缘和水边空地上空巡飞，停落时挂在枝叶间。
+
+- id: 3
+  list_cn: 极北蜓
+  cn: 极北蜓
+  sci: Aeshna subarctica
+  author: Walker, 1908
+  family: Aeshnidae
+  status: doubtful
+  verdict_short: 北京无可靠记录，更可能是峻蜓 Aeshna juncea
+  verdict: >-
+    名字和学名对得上，但北京没有可靠记录。极北蜓只生活在泥炭藓沼泽，国内另一笔记录在吉林；iNaturalist 上唯一的北京记录
+    位置误差 3.9 km、落在顺义平原，可信度很低。北京山区更可能遇到的是<b>峻蜓 <i>Aeshna juncea</i></b>，
+    喇叭沟门 2026 年 8 月有一条研究级记录。两种的雌性都有黄色型和同色系，只看雌性色型分不开，要看雄性肛附器和胸侧条纹。
+  tips: 中型蜓，雄性腹部蓝斑，胸侧黄色条纹窄。和峻蜓极像，野外很难分。
+  habitat: 寒冷地区的泥炭藓沼泽。北京如果有，只会在海拔较高的山地湿地。
+  links: [["峻蜓的北京记录（喇叭沟门）", "https://www.inaturalist.org/observations/392303772"]]
+
+- id: 4
+  list_cn: 斑伟蜓
+  cn: 斑伟蜓
+  sci: Anax guttatus
+  author: (Burmeister, 1839)
+  family: Aeshnidae
+  status: doubtful
+  verdict_short: 南方种，北京无公开记录
+  verdict: >-
+    学名正确，是有效种。它是南方种类，能长距离飞行，北京出现迷途个体是可能的；但 iNaturalist 和 GBIF 上都没有北京及周边
+    （北纬 36° 以北）的可核实记录。拍到的话请保留照片和地点。
+  tips: 大型伟蜓，胸部绿色。雄性腹部第 2–3 节天蓝色，后翅基部有一块琥珀色斑。
+  habitat: 华南、西南的池塘和湖泊很常见，北京只可能是随气流北上的个体。
+
+- id: 5
+  list_cn: 黑纹伟蜓
+  cn: 黑纹伟蜓
+  sci: Anax nigrofasciatus
+  author: Oguma, 1915
+  family: Aeshnidae
+  status: valid
+  verdict: 学名和名字都正确，北京有稳定种群。
+  tips: 和碧伟蜓相似，但胸侧有明显的黑色条纹，腹部蓝黑相间。雌性有同色系、绿色型、黄色型几种色型。
+  habitat: 春季比碧伟蜓出现得早，在水草丰富的池塘和山区水库巡飞。
+
+- id: 6
+  list_cn: 碧伟蜓灰胸亚种
+  cn: 碧伟蜓灰胸亚种
+  sci: Anax parthenope
+  author: (Selys, 1839)
+  family: Aeshnidae
+  status: doubtful
+  verdict_short: 已是独立种 A. parthenope；北京无可靠记录
+  verdict: >-
+    按世界蜻蜓名录，碧伟蜓已经拆成两个种：欧洲到中亚的 <i>Anax parthenope</i>（胸部灰褐，就是这里说的“灰胸”），
+    和东亚的 <i>Anax julius</i>（胸部绿色，北京常见的碧伟蜓）。国内 <i>A. parthenope</i> 的近年记录几乎都在新疆，
+    北京没有可核实记录。1920 年代北京被标为 parthenope 的老标本都早于拆分，实际应是 <i>A. julius</i>。
+    在北京拍到“灰胸”的个体，更可能是刚羽化或衰老的东亚碧伟蜓，值得仔细比对。
+  tips: 合胸灰褐到橄榄色，腹部第 2 节有一块天蓝色鞍斑。
+  habitat: 欧洲、北非到中亚的湖泊和池塘；国内主要在新疆。
+
+- id: 7
+  list_cn: 碧伟蜓东亚亚种
+  cn: 碧伟蜓东亚亚种
+  sci: Anax julius
+  author: Brauer, 1865
+  old: Anax parthenope julius
+  family: Aeshnidae
+  status: renamed
+  verdict_short: 2023 年升为独立种 Anax julius（东亚碧伟蜓）
+  verdict: >-
+    北京最常见的大型蜻蜓。2023 年 Onishko、Kosterin 和 Voinov 根据肛附器形态和分子数据，把它从碧伟蜓的亚种提升为独立种
+    <i>Anax julius</i>，中文可称<b>东亚碧伟蜓</b>，世界蜻蜓名录已采用。
+    名单里的“雄（拓蓝籽）”在网上查不到。北京老话把碧伟蜓的雄性叫“老杆儿”、雌性叫“老籽儿”，“拓蓝籽”大概是社里对某种蓝色范围特别大的个体的叫法，具体所指请以老姜的解释为准。
+  tips: 胸部全绿、没有黑纹。雄性腹部第 2 节天蓝色，雌性这里多为绿褐色。
+  habitat: 公园湖泊、池塘、河道都很常见，雄性沿岸来回巡飞，几乎不停。老北京孩子抓的“老杆儿”就是它。
+
+- id: 8
+  list_cn: 长者头蜓
+  cn: 长者头蜓
+  sci: Cephalaeschna patrorum
+  author: Needham, 1930
+  family: Aeshnidae
+  status: valid
+  verdict: 学名正确，北京山区有稳定记录。
+  tips: 暗褐色带黄绿色斑纹的中型蜓，头部宽大。
+  habitat: 山区林荫下的小溪，多在黄昏或阴天活动。
+
+- id: 9
+  list_cn: 山西黑额蜓
+  cn: 山西黑额蜓
+  sci: Aeschnophlebia shanxiensis
+  author: (Zhu & Zhang, 2001)
+  old: Planaeschna shanxiensis
+  family: Aeshnidae
+  status: renamed
+  verdict_short: 2023 年属名调整，Planaeschna 改为 Aeschnophlebia
+  verdict: 物种没问题，属名因 2023 年的分类调整改为 <i>Aeschnophlebia</i>（原因见长痣绿蜓）。北京山区溪流很常见。名单里的“雌雄同体”是极罕见的发育异常个体。
+  tips: 额头黑色，黑褐色身体上有黄绿色斑点和条纹，复眼蓝绿色。
+  habitat: 山区溪流，林荫下常见。
+
+# ---------------------------------------------------------------- 春蜓科
+- id: 10
+  list_cn: 马奇异春蜓
+  cn: 马奇异春蜓
+  sci: Anisogomphus maacki
+  author: (Selys, 1872)
+  family: Gomphidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 中型春蜓，黄绿色和黑色相间，胸部条纹清楚。
+  habitat: 山区和平原的河流、溪流，常停在水边石头和草叶上。
+
+- id: 11
+  list_cn: 卧佛春蜓
+  cn: 卧佛春蜓
+  sci: Asiagomphus somnolens
+  author: (Needham, 1929)
+  family: Gomphidae
+  status: doubtful
+  inat: 433255
+  verdict_short: 学名是卧佛亚春蜓 A. somnolens，但只有 1 只幼虫模式标本，成虫从未被描述
+  verdict: >-
+    对应的学名是<b>卧佛亚春蜓 <i>Asiagomphus somnolens</i></b>。“卧佛”是种名 somnolens（意为“沉睡的”）的意译，
+    不一定指卧佛寺。这个种是 1929 年 Needham 依据北京采到的一只<b>幼虫</b>描述的，唯一的模式标本保存在美国康奈尔大学，
+    至今没有人正式描述过成虫，iNaturalist 和 GBIF 上也没有任何成虫记录。所以被叫作“卧佛春蜓”的成虫照片，
+    只有通过饲养幼虫羽化，才能真正和这个学名对上。这也是它被列为“传说”的原因之一。
+  tips: 亚春蜓属，黄黑相间的中大型春蜓。成虫特征尚无正式描述。
+  habitat: 模式标本采自北京，生境不详；亚春蜓属一般生活在山区溪流和河流。
+  links: [["康奈尔大学模式标本（GBIF）", "https://www.gbif.org/occurrence/6177458772"]]
+
+- id: 12
+  list_cn: 西南亚春蜓(老姜亚春蜓)
+  cn: 西南亚春蜓
+  sci: Asiagomphus hesperius
+  author: (Chao, 1953)
+  family: Gomphidae
+  status: undetermined
+  inat: 562473
+  verdict_short: 北京个体尚未鉴定到种，可能与卧佛亚春蜓有关
+  verdict: >-
+    “西南亚春蜓”是 <i>Asiagomphus hesperius</i>，正式分布在陕西、四川。iNaturalist 上鉴定为它的 5 条记录全部来自山东昆嵛山，
+    说明北方爱好者已经在用这个名字称呼一种北方的亚春蜓。北京这一种还没有可靠鉴定，老姜叫它“老姜亚春蜓”，意思是可能是未描述的新种。
+    要定下来，需要和卧佛亚春蜓的幼虫模式、朝鲜亚春蜓 <i>A. coreanus</i> 等近似种比对；它甚至可能就是卧佛亚春蜓从没被描述过的成虫。
+  tips: 亚春蜓属，黄黑相间的中大型春蜓。
+  habitat: 山区溪流。下方照片是山东的一条 iNaturalist 记录，只作参考。
+
+- id: 13
+  list_cn: 领纹缅春蜓
+  cn: 领纹缅春蜓
+  sci: Burmagomphus collaris
+  author: (Needham, 1929)
+  family: Gomphidae
+  status: valid
+  verdict: 学名正确。
+  tips: 小型春蜓，前胸背面有一圈黄色的“领子”。
+  habitat: 平原到低山的河流和溪流，常停在岸边叶片上。
+
+- id: 14
+  list_cn: 双角戴春蜓
+  cn: 双角戴春蜓
+  sci: Dubitogomphus bicornutus
+  author: (Selys, 1878)
+  old: Davidius bicornutus
+  family: Gomphidae
+  status: renamed
+  verdict_short: 属名改为 Dubitogomphus，中文名随之称双角迷春蜓
+  verdict: 物种没问题，世界蜻蜓名录已把它从戴春蜓属 <i>Davidius</i> 移入迷春蜓属 <i>Dubitogomphus</i>，iNaturalist 中文名为<b>双角迷春蜓</b>。北京有稳定记录。
+  tips: 小型暗色春蜓，黑底带黄色细纹。
+  habitat: 山区清澈的溪流，春末夏初出现。
+
+- id: 15
+  list_cn: 长腹春蜓
+  cn: 长腹春蜓
+  sci: Gastrogomphus abdominalis
+  author: (McLachlan, 1884)
+  family: Gomphidae
+  status: valid
+  verdict: 学名正确，北京朝阳、怀柔等地有记录（2015–2025）。
+  tips: 黄绿色的中型春蜓，腹部细长，胸部黑纹较少。
+  habitat: 平原的湖泊、池塘和缓流河道，是春蜓里少见的偏好静水的种类。
+
+- id: 16
+  list_cn: 联纹小叶春蜓
+  cn: 联纹小叶春蜓
+  sci: Gomphidia confluens
+  author: Selys, 1878
+  family: Gomphidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 大型春蜓，黑底黄纹，胸前的黄纹相连成“联纹”；雄性腹部第 8 节两侧有小叶片状扩展。
+  habitat: 河流、水库和大型湖泊，常停在水边枝头。
+
+- id: 17
+  list_cn: 霸王叶春蜓
+  cn: 霸王叶春蜓
+  sci: Ictinogomphus pertinax
+  author: (Hagen in Selys, 1854)
+  family: Gomphidae
+  status: valid
+  verdict: 学名正确。南方很常见，北京记录不多。
+  tips: 大型春蜓，腹部第 8 节两侧扩展成黑黄色的叶片。
+  habitat: 池塘、湖泊和水库，喜欢停在水中枝条的顶端。
+
+- id: 18
+  list_cn: 环纹环尾春蜓
+  cn: 环纹环尾春蜓
+  sci: Lamelligomphus ringens
+  author: (Needham, 1930)
+  family: Gomphidae
+  status: valid
+  verdict: 学名正确。
+  tips: 雄性肛附器很大，弯成环状，名字由此而来。
+  habitat: 山区溪流和河流，常停在溪中石头上。
+
+- id: 19
+  list_cn: 棘角蛇纹春蜓
+  cn: 棘角蛇纹春蜓
+  sci: Ophiogomphus spinicornis
+  author: Selys, 1878
+  family: Gomphidae
+  status: valid
+  verdict: 学名正确。
+  tips: 胸部鲜绿色，腹部黑底黄斑，名字里的“棘角”指头顶的一对小棘。
+  habitat: 北方山区多沙石的清澈河流，常停在河滩沙石上。
+
+- id: 20
+  list_cn: 艾氏施春蜓
+  cn: 艾氏施春蜓
+  sci: Sieboldius albardae
+  author: Selys, 1886
+  family: Gomphidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 北京最大的春蜓之一，黑色带黄纹，足长、头大。
+  habitat: 山区和平原的大河，雄性在河面上空巡飞。
+
+- id: 21
+  list_cn: 大团扇春蜓
+  cn: 大团扇春蜓
+  sci: Sinictinogomphus clavatus
+  author: (Fabricius, 1775)
+  family: Gomphidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 腹部第 8 节两侧有一对黑黄色的大“团扇”，一眼就能认出。
+  habitat: 湖泊、水库和池塘，喜欢停在水中竖起的枝条顶端。
+
+- id: 22
+  list_cn: 野居棘尾春蜓
+  cn: 野居棘尾春蜓
+  sci: Trigomphus agricola
+  author: (Ris, 1916)
+  family: Gomphidae
+  status: doubtful
+  verdict_short: 已知分布在华东，北京无公开记录
+  verdict: 学名正确。已知分布在安徽、福建、河南、江苏、山东、浙江，iNaturalist 和 GBIF 上都没有北京记录，需要照片佐证。
+  tips: 小型春蜓，黄黑相间，春季出现。
+  habitat: 平原的池塘、水渠和稻田周边。
+
+# ---------------------------------------------------------------- 大蜓科
+- id: 23
+  list_cn: 双斑圆臀大蜓
+  cn: 双斑圆臀大蜓
+  sci: Anotogaster kuchenbeiseri
+  author: (Förster, 1899)
+  family: Cordulegastridae
+  status: valid
+  verdict: 学名正确，北京山区常见。名单里的“雌雄同体”是极罕见的发育异常个体。
+  tips: 北京体型最大的蜻蜓之一，黑黄相间，复眼翠绿。雌性腹末有长长的产卵器。
+  habitat: 山区小溪，沿溪流低飞巡逻，夏季在山路边常能碰到。
+
+- id: 24
+  list_cn: 北京角臀大蜓
+  cn: 北京角臀大蜓
+  sci: Thecagaster pekinensis
+  author: (Selys, 1886)
+  old: Neallogaster pekinensis
+  family: Cordulegastridae
+  status: renamed
+  verdict_short: 2024 年属名改为 Thecagaster
+  verdict: 物种没问题。2024 年 Schneider 等人的分子研究把它移入恢复使用的 <i>Thecagaster</i> 属，世界蜻蜓名录已采用。种名 pekinensis 就是“北京的”。
+  tips: 比双斑圆臀大蜓小一号，黑黄相间，复眼绿色。
+  habitat: 山区溪流的源头和渗水的小溪。
+
+# ---------------------------------------------------------------- 伪蜻科
+- id: 25
+  list_cn: 缘斑毛伪蜻
+  cn: 缘斑毛伪蜻
+  sci: Epitheca marginata
+  author: (Selys, 1883)
+  family: Corduliidae
+  status: valid
+  verdict: 学名正确。
+  tips: 褐色的中型伪蜻，胸部多毛，翅前缘带褐色。
+  habitat: 春末夏初出现，池塘和水库边常见。
+
+- id: 26
+  list_cn: 日本金光伪蜻
+  cn: 日本金光伪蜻
+  sci: Somatochlora exuberata
+  author: Bartenev, 1910
+  old: Somatochlora japonica
+  family: Corduliidae
+  status: renamed
+  verdict_short: 有效学名为 S. exuberata，S. japonica 是异名
+  verdict: 物种没问题，有效学名是 <i>Somatochlora exuberata</i>；<i>S. japonica</i> Matsumura, 1911 晚一年发表，是它的异名。北京喇叭沟门、云蒙山有记录。
+  tips: 体色深暗带金属绿光，复眼翠绿，腹部细长。
+  habitat: 北部山区的林间湿地和水塘。
+
+- id: 27
+  list_cn: 山西金光伪蜻
+  cn: 山西金光伪蜻
+  sci: Somatochlora uchidai
+  author: Förster, 1909
+  old: Somatochlora shanxiensis
+  family: Corduliidae
+  status: renamed
+  verdict_short: 2018 年并入内田金光伪蜻 S. uchidai
+  verdict: 2018 年 Li 和 Zhang 研究后，把山西金光伪蜻 <i>S. shanxiensis</i> 并入<b>内田金光伪蜻 <i>Somatochlora uchidai</i></b>，世界蜻蜓名录和 iNaturalist 已采用。《中国蜻蜓大图鉴》（2019）仍单列山西金光伪蜻。
+  tips: 金属绿色的中型伪蜻，复眼翠绿。
+  habitat: 山区林间溪流。
+
+- id: 28
+  list_cn: 格氏金光伪蜻
+  cn: 格氏金光伪蜻
+  sci: Somatochlora graeseri
+  author: Selys, 1887
+  family: Corduliidae
+  status: doubtful
+  verdict_short: 国内记录在东北，北京无公开记录
+  verdict: 学名正确。国内记录主要在东北和辽宁，河北西部有两条未确认的记录，北京没有公开记录。内田金光伪蜻和它相似，容易混淆。
+  tips: 金属绿色带黄斑，复眼翠绿。
+  habitat: 北方山地的林间湿地。
+
+# ---------------------------------------------------------------- 大伪蜻科
+- id: 29
+  list_cn: 闪蓝丽大伪蜻
+  cn: 闪蓝丽大伪蜻
+  sci: Epophthalmia elegans
+  author: (Brauer, 1865)
+  family: Macromiidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 大型，胸部金属蓝绿色带黄纹，腹部黑底黄斑，足很长。
+  habitat: 湖泊、水库，雄性沿岸线长时间巡飞。
+
+- id: 30
+  list_cn: 北京大伪蜻
+  cn: 北京大伪蜻
+  sci: Macromia beijingensis
+  author: Zhu & Chen, 2005
+  family: Macromiidae
+  status: valid
+  verdict: 学名正确，2005 年以北京标本描述的物种。
+  tips: 黑色带黄斑，复眼绿色，足长。
+  habitat: 山区河流和溪流，雄性沿河道巡飞。
+
+- id: 31
+  list_cn: 东北大伪蜻
+  cn: 东北大伪蜻
+  sci: Macromia manchurica
+  author: Asahina, 1964
+  family: Macromiidae
+  status: valid
+  verdict: 学名正确。2025 年 Kosterin 等人把 <i>M. hamata</i> 并入本种。
+  tips: 黑色带黄斑，复眼绿色，和北京大伪蜻很像，要看肛附器和斑纹细节。
+  habitat: 山区河流。
+
+- id: 32
+  list_cn: 大伪蜻属待定种2
+  cn: 大伪蜻属待定种2
+  sci: Macromia sp.
+  family: Macromiidae
+  status: undetermined
+  verdict_short: 沿用《中国蜻蜓大图鉴》的待定种编号，候选为圆大伪蜻
+  verdict: >-
+    沿用张浩淼《中国蜻蜓大图鉴》的编号“大伪蜻属待定种 2”。iNaturalist 上北京有 4 条只鉴定到属的大伪蜻（房山、门头沟、昌平、密云）。
+    最可能的候选是<b>圆大伪蜻 <i>Macromia amphigena</i></b>，它会和东北大伪蜻杂交（Yu 等 2024），这也让鉴定更难。
+  tips: 外形和北京大伪蜻、东北大伪蜻相近。
+  habitat: 山区河流。
+
+# ---------------------------------------------------------------- 蜻科
+- id: 33
+  list_cn: 蓝额疏脉蜻
+  cn: 蓝额疏脉蜻
+  sci: Brachydiplax chalybea
+  author: Brauer, 1868
+  old: Brachydiplax flavovittata
+  family: Libellulidae
+  status: renamed
+  verdict_short: 《中国蜻蜓大图鉴》的 B. flavovittata 已并入 B. chalybea
+  verdict: 《中国蜻蜓大图鉴》把蓝额疏脉蜻作为独立种 <i>Brachydiplax flavovittata</i>，而把 <i>B. chalybea</i> 叫褐胸疏脉蜻。世界蜻蜓名录把 <i>flavovittata</i> 并入 <i>B. chalybea</i>，所以学名应写 <i>B. chalybea</i>，东亚的这一类型就是原来的 flavovittata。
+  tips: 小型蜻。雄性额头金属蓝色，胸部褐色，腹部覆淡蓝色粉。
+  habitat: 水草多的池塘、荷塘。
+- id: 34
+  list_cn: 黄翅蜻
+  cn: 黄翅蜻
+  sci: Brachythemis contaminata
+  author: (Fabricius, 1793)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确。南方极常见，北京记录不多。
+  tips: 雄性翅中部有一大片橙黄色，翅脉红色；雌性翅透明。
+  habitat: 南方各种水体边都很常见，在北京属于偏北的分布。
+
+- id: 35
+  list_cn: 红蜻古北亚种
+  cn: 红蜻古北亚种
+  sci: Crocothemis servilia
+  author: (Drury, 1773)
+  old: Crocothemis servilia mariannae
+  family: Libellulidae
+  status: renamed
+  inat: 52055
+  verdict_short: 北京的红蜻就是 C. servilia；古北亚种 mariannae 只指日本种群
+  verdict: >-
+    北京的红蜻就是 <i>Crocothemis servilia</i>。“古北亚种” <i>mariannae</i> 是 Kiauta 1983 年依据大阪的标本、按染色体（雄性 2n=24）命名的，
+    大陆种群（包括山西太原的标本）是 2n=25，属于原来的 <i>servilia</i>；Higashi 等 2001 年的结论是 <i>mariannae</i> 只分布在日本。
+    世界蜻蜓名录和 GBIF 都把 <i>mariannae</i> 作为异名。《中国蜻蜓大图鉴》把华北的红蜻称为古北亚种，与原始文献不符。
+  tips: 雄性全身鲜红，腹部背面中央有一条黑色细线。雌性黄褐色，少数雌性也是红色（同色系）。
+  habitat: 池塘、湖泊和河道边常见。
+- id: 36
+  list_cn: 异色多纹蜻
+  cn: 异色多纹蜻
+  sci: Deielia phaon
+  author: (Selys, 1883)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确，北京很常见。
+  tips: 雄性全身覆蓝灰色粉；雌性黄黑相间，也有一部分雌性像雄性一样覆粉（同色系）。
+  habitat: 池塘、湖泊边的挺水植物上，初夏数量很多。
+
+- id: 37
+  list_cn: 低斑蜻
+  cn: 低斑蜻
+  sci: Libellula angelina
+  author: Selys, 1883
+  family: Libellulidae
+  status: valid
+  verdict: >-
+    学名正确。全球受威胁物种：IUCN 红色名录曾评为极危（CR），2023 年列入国家林草局的“三有”名录，是其中唯一的蜻蜓。
+    2011 年有研究认为它在北京可能已经绝迹，2024 年 5 月又在海淀上庄水库被重新发现。
+  tips: 四片翅上各有几块褐色斑，停落时很好认。
+  habitat: 挺水植物丰富的池塘和湿地，春末夏初出现。
+
+- id: 38
+  list_cn: 小斑蜻
+  cn: 小斑蜻
+  sci: Libellula quadrimaculata
+  author: Linnaeus, 1758
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确，北京记录很少。
+  tips: 每片翅的结点处有一个小黑斑，后翅基部有暗色斑。
+  habitat: 北方的沼泽和湿地。
+
+- id: 39
+  list_cn: 白尾灰蜻
+  cn: 白尾灰蜻
+  sci: Orthetrum albistylum
+  author: (Selys, 1848)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确，北京最常见的灰蜻。
+  tips: 雄性腹部覆蓝白粉、末端黑色，肛附器白色（“白尾”）。雌性黄黑色，少数老熟雌性也覆粉（同色系）。
+  habitat: 公园水边、河道、湿地随处可见。
+
+- id: 40
+  list_cn: 天蓝灰蜻
+  cn: 天蓝灰蜻
+  sci: Orthetrum brunneum
+  author: (Fonscolombe, 1837)
+  family: Libellulidae
+  status: valid
+  inat: 107949
+  verdict: 天蓝灰蜻是 <i>Orthetrum brunneum</i>（中国蜻蜓名录又称布鲁灰蜻），不要和南方的鼎脉灰蜻 <i>O. triangulare</i> 混淆。北京昌平、怀柔有 8 条 iNaturalist 记录（2022–2026）。
+  tips: 雄性全身覆天蓝色粉，连胸部也是蓝的；翅痣浅褐色。雌性黄褐色。
+  habitat: 山区多石的溪流和渗水的河滩，喜欢停在石头上。
+- id: 41
+  list_cn: 粗灰蜻
+  cn: 粗灰蜻
+  sci: Orthetrum cancellatum
+  author: (Linnaeus, 1758)
+  family: Libellulidae
+  status: doubtful
+  verdict_short: 北京只有 1 条 iNaturalist 记录，需和奇异灰蜻区分
+  verdict: 学名正确。北京只有 1 条 iNaturalist 记录（昌平，2026 年 7 月），国内已知分布在内蒙古、吉林、山西、新疆。2025 年描述的奇异灰蜻雌性和粗灰蜻雌性非常像，这条记录值得重新核对。
+  tips: 雄性腹部粗壮、覆蓝粉、末端黑色；胸部褐色无粉，翅痣黑色。
+  habitat: 欧洲到中亚的湖泊、池塘很常见，北京极少。
+- id: 42
+  list_cn: 褐肩灰蜻
+  cn: 褐肩灰蜻
+  sci: Orthetrum internum
+  author: McLachlan, 1894
+  old: Orthetrum japonicum internum
+  family: Libellulidae
+  status: doubtful
+  inat: 563217
+  verdict_short: 已是独立种 O. internum；北京只有文献记录
+  verdict: 学名应写 <i>Orthetrum internum</i>，它已是独立种，和日本的 <i>O. japonicum</i> 分开（GBIF 还沿用旧的亚种写法）。北京在 iNaturalist 和 GBIF 上都没有记录，中国蜻蜓名录列北京只是依据文献。
+  tips: 雄性腹部覆蓝粉，胸部褐色，肩部有浅色条纹。
+  habitat: 山区和丘陵的湿草地、渗水地。
+- id: 43
+  list_cn: 线痣灰蜻
+  cn: 线痣灰蜻
+  sci: Orthetrum lineostigma
+  author: (Selys, 1886)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 雄性覆蓝粉，翅痣细长。少数雌性也覆粉（同色系）。
+  habitat: 山区溪流和水边草地。
+
+- id: 44
+  list_cn: 异色灰蜻
+  cn: 异色灰蜻
+  sci: Orthetrum melania
+  author: (Selys, 1883)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确。
+  tips: 雄性胸部黑色、腹部前半覆蓝灰粉后半黑色，对比强烈，后翅基部有黑斑。未成熟雄性还是黄黑色，像雌性。
+  habitat: 山区溪流和池塘。
+
+- id: 45
+  list_cn: 奇异灰蜻(灰蜻属待定种2)
+  cn: 奇异灰蜻
+  sci: Orthetrum aberrans
+  author: Yu, 2025
+  old: Orthetrum sp. 2
+  family: Libellulidae
+  status: renamed
+  inat: 1630235
+  verdict_short: 2025 年正式发表为 Orthetrum aberrans
+  verdict: >-
+    这个“待定种”2025 年已由于昕正式发表为<b>奇异灰蜻 <i>Orthetrum aberrans</i></b>（模式标本产自重庆巫山），
+    原文写明北京也有分布。iNaturalist 上北京有 4 条研究级记录（门头沟、昌平、喇叭沟门，2020–2024）。
+    雄性像白尾灰蜻，雌性像粗灰蜻，作者推测它可能起源于杂交，但没有定论。它是不是《中国蜻蜓大图鉴》里的“灰蜻属待定种 2”，原文没有说，这是老姜的对应，看起来合理。
+  tips: 雄性像白尾灰蜻，雌性像粗灰蜻，野外要靠细节区分。
+  habitat: 山区溪流和水边草地。
+- id: 46
+  list_cn: 黄蜻(黄神)
+  cn: 黄蜻
+  sci: Pantala flavescens
+  author: (Fabricius, 1798)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确，全世界分布最广的蜻蜓。社里叫它“黄神”。
+  tips: 全身橙黄色，后翅基部宽大，适合滑翔。它能跨海迁飞，是飞得最远的昆虫之一。
+  habitat: 夏末常成群在开阔地上空飞行，雨前尤其多。
+
+- id: 47
+  list_cn: 玉带蜻(玉神)
+  cn: 玉带蜻
+  sci: Pseudothemis zonata
+  author: (Burmeister, 1839)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确，北京常见。社里叫它“玉神”。
+  tips: 身体黑色，腹基第 2–3 节有一条白色宽带（雌性为黄色），像系了一条玉带。
+  habitat: 池塘、荷塘，雄性在水面低空来回巡飞。
+
+- id: 48
+  list_cn: 黑丽翅蜻
+  cn: 黑丽翅蜻
+  sci: Rhyothemis fuliginosa
+  author: Selys, 1883
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 翅大部分是深蓝紫色，阳光下闪金属光泽；飞起来一扇一扇的，像蝴蝶。
+  habitat: 荷塘和水草多的池塘，北京公园的荷花池里很常见。
+
+- id: 49
+  list_cn: 黑赛丽蜻
+  cn: 黑赛丽蜻
+  sci: Selysiothemis nigra
+  author: (Vander Linden, 1825)
+  family: Libellulidae
+  status: doubtful
+  verdict_short: 文献有北京记录，没有公开照片
+  verdict: 学名正确。《中国蜻蜓大图鉴》和中国蜻蜓名录都列了北京，但 iNaturalist 和 GBIF 上没有北京的照片记录；最近的记录在天津北辰、山东东营和内蒙古。它是正在向东扩散的迁飞性种类，北京有机会再出现。
+  tips: 小型蜻。雄性全身黑色，翅透明；雌性黄褐色带黑纹。
+  habitat: 地中海到中亚的干旱地区，常在咸水湖、水库和盐碱湿地边。
+- id: 50
+  list_cn: 半黄赤蜻
+  cn: 半黄赤蜻
+  sci: Sympetrum croceolum
+  author: (Selys, 1883)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确。
+  tips: 翅的前半部分染成橙黄色，雄性腹部红色。
+  habitat: 山区水塘和溪流边，秋季。
+
+- id: 51
+  list_cn: 黑赤蜻
+  cn: 黑赤蜻
+  sci: Sympetrum danae
+  author: (Sulzer, 1776)
+  family: Libellulidae
+  status: doubtful
+  verdict_short: 北京无公开记录，最近的在河北北部
+  verdict: 学名正确。北京没有公开记录，国内最近的记录在河北塞罕坝和内蒙古克什克腾（约北纬 42°）。北京若有，只可能在北部高山湿地。
+  tips: 小型赤蜻。雄性成熟后几乎全身黑色，是赤蜻属里少有的黑色种类。
+  habitat: 北方寒冷地区的沼泽和高山湿地。
+- id: 52
+  list_cn: 夏赤蜻
+  cn: 夏赤蜻
+  sci: Sympetrum darwinianum
+  author: (Selys, 1883)
+  family: Libellulidae
+  status: doubtful
+  verdict_short: 北京无公开记录，最近的在天津
+  verdict: 学名正确。北京没有找到公开记录，中国蜻蜓名录的分布是天津和吉林。
+  tips: 和秋赤蜻很像，胸侧黑纹较少。雄性成熟后腹部红色。
+  habitat: 水田、池塘边。
+- id: 53
+  list_cn: 扁腹赤蜻
+  cn: 扁腹赤蜻
+  sci: Sympetrum depressiusculum
+  author: (Selys, 1841)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 腹部扁平而宽，侧面有一列黑点；雄性橙红色。少数雌性也是红色（同色系）。
+  habitat: 平原湿地、水田和池塘，夏秋季。
+
+- id: 54
+  list_cn: 竖眉赤蜻指名亚种
+  cn: 竖眉赤蜻指名亚种
+  sci: Sympetrum eroticum
+  author: (Selys, 1883)
+  family: Libellulidae
+  status: valid
+  inat: 113505
+  verdict: 学名正确，北京很常见（iNaturalist 北京 266 条）。“指名亚种”是《中国蜻蜓大图鉴》的写法；世界蜻蜓名录不承认任何亚种，印成种名 <i>Sympetrum eroticum</i> 最稳妥。
+  tips: 额头上有一对黑色竖斑，像两道竖起的眉毛；雄性腹部红色。
+  habitat: 林缘的池塘和水沟，夏秋季。
+- id: 55
+  list_cn: 黄斑赤蜻
+  cn: 黄斑赤蜻
+  sci: Sympetrum flaveolum
+  author: (Linnaeus, 1758)
+  family: Libellulidae
+  status: doubtful
+  verdict_short: 北京无公开记录，最近的在河北围场
+  verdict: 学名正确，iNaturalist 叫它虾黄赤蜻，中国蜻蜓名录叫黄尾赤蜻，是同一个种。北京没有公开记录，最近的在河北围场和内蒙古多伦（约北纬 42°）。
+  tips: 后翅基部有一大片橙黄色斑，前翅基部也带黄色。
+  habitat: 北方的湿草甸和沼泽。
+- id: 56
+  list_cn: 方氏赤蜻
+  cn: 方氏赤蜻
+  sci: Sympetrum fonscolombii
+  author: (Selys, 1840)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 翅脉红色，翅基有黄斑，雄性复眼下半部蓝灰色。迁飞性强。
+  habitat: 开阔的浅水塘和湿地。
+
+- id: 57
+  list_cn: 秋赤蜻
+  cn: 秋赤蜻
+  sci: Sympetrum frequens
+  author: (Selys, 1883)
+  family: Libellulidae
+  status: doubtful
+  verdict_short: 名录列北京，公开记录只有 1 条待鉴定
+  verdict: 学名正确。中国蜻蜓名录列了北京，iNaturalist 上只有 1 条待鉴定的记录（海淀，2024 年 10 月）。
+  tips: 日本最常见的“红蜻蜓”（秋茜）。夏天到山上避暑，秋天回到平地时变红。
+  habitat: 水田、池塘。
+- id: 58
+  list_cn: 小黄赤蜻
+  cn: 小黄赤蜻
+  sci: Sympetrum kunckeli
+  author: (Selys, 1884)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确。
+  tips: 小型赤蜻。雄性脸部白色或淡蓝色，腹部红色；雌性黄色。
+  habitat: 水草多的池塘和山区水塘，夏秋季。
+
+- id: 59
+  list_cn: 褐带赤蜻
+  cn: 褐带赤蜻
+  sci: Sympetrum pedemontanum
+  author: (Müller in Allioni, 1766)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确。
+  tips: 每片翅靠近末端都有一条褐色宽带，非常好认。
+  habitat: 水渠、溪流边的草地，夏秋季。
+
+- id: 60
+  list_cn: 黄基赤蜻指名亚种
+  cn: 黄基赤蜻指名亚种
+  sci: Sympetrum speciosum
+  author: Oguma, 1915
+  family: Libellulidae
+  status: valid
+  inat: 325419
+  verdict: 学名正确，北京有稳定记录（iNaturalist 北京 43 条）。和竖眉赤蜻一样，“指名亚种”是《中国蜻蜓大图鉴》的写法，世界蜻蜓名录不分亚种。注意中国蜻蜓名录把这个种叫“旭光赤蜻”，而《中国蜻蜓大图鉴》的旭光赤蜻是另一个种 <i>S. hypomelas</i>。
+  tips: 后翅基部有一块橙色斑，雄性全身鲜红。
+  habitat: 山区林间的水塘。
+- id: 61
+  list_cn: 条斑赤蜻指名亚种
+  cn: 条斑赤蜻指名亚种
+  sci: Sympetrum striolatum
+  author: (Charpentier, 1840)
+  family: Libellulidae
+  status: valid
+  inat: 55625
+  verdict: 学名正确，北京很常见（iNaturalist 北京 141 条，秋季最多）。“指名亚种”是《中国蜻蜓大图鉴》的写法，对东亚种群不太合适：Pilgrim 和 von Dohlen（2007）认为东亚大陆种群应是 <i>S. s. imitoides</i>，和欧洲的指名亚种在遗传上不同。世界蜻蜓名录不分亚种，印成种名最稳妥。野外注意和普赤蜻区分。
+  tips: 胸侧有清楚的浅色条纹，雄性腹部红色；额头的黑纹不向下延伸到复眼边缘（普赤蜻会延伸）。
+  habitat: 池塘和湿地，9–10 月最多。
+- id: 62
+  list_cn: 大黄赤蜻
+  cn: 大黄赤蜻
+  sci: Sympetrum uniforme
+  author: (Selys, 1883)
+  family: Libellulidae
+  status: doubtful
+  verdict_short: 只有 1927 年燕京大学的老标本
+  verdict: 学名正确。北京的记录只有 GBIF 上 4 件 1927 年采自燕京大学校园（今北京大学）的标本，保存在康奈尔大学，之后近百年没有公开的新记录。
+  tips: 赤蜻属里个头较大的一种，全身橙黄，翅前缘也带橙色。
+  habitat: 平原湿地和池塘。
+- id: 63
+  list_cn: 普赤蜻
+  cn: 普赤蜻
+  sci: Sympetrum vulgatum
+  author: (Linnaeus, 1758)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确。
+  tips: 和条斑赤蜻很像，额头的黑纹向下延伸到复眼边缘。
+  habitat: 北方的池塘和湿地，夏秋季。
+
+- id: 64
+  list_cn: 华斜痣蜻
+  cn: 华斜痣蜻
+  sci: Tramea virginia
+  author: (Rambur, 1842)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确。南方常见，北京记录不多。
+  tips: 后翅基部有一大块红褐色斑，翅痣斜；雄性腹部红色。
+  habitat: 善于滑翔的迁飞性蜻蜓，常在开阔水面上空飞。
+
+- id: 65
+  list_cn: 晓褐蜻
+  cn: 晓褐蜻
+  sci: Trithemis aurora
+  author: (Burmeister, 1839)
+  family: Libellulidae
+  status: valid
+  verdict: 学名正确。南方极常见，北京记录很少。
+  tips: 雄性全身紫红色，翅脉也是红色。
+  habitat: 南方的溪流和池塘边。
+
+# ---------------------------------------------------------------- 色蟌科
+- id: 66
+  list_cn: 黑暗色蟌
+  cn: 黑暗色蟌
+  sci: Atrocalopteryx atrata
+  author: (Selys, 1853)
+  family: Calopterygidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 翅全黑、没有翅痣；雄性身体金属绿色。
+  habitat: 平原和山区的缓流溪流和河道，停在岸边植物上。
+
+- id: 67
+  list_cn: 透顶单脉色蟌
+  cn: 透顶单脉色蟌
+  sci: Matrona basilaris
+  author: Selys, 1853
+  family: Calopterygidae
+  status: valid
+  verdict: 学名正确，北京山区溪流很常见。
+  tips: 雄性翅深蓝黑色、翅脉蓝色；雌性翅褐色，有白色的伪翅痣。
+  habitat: 山区溪流，北京西山、北山的溪边常见。
+
+- id: 68
+  list_cn: 绿色蟌属待定种2
+  cn: 绿色蟌属待定种2
+  sci: Mnais sp.
+  family: Calopterygidae
+  status: undetermined
+  inat: 89999
+  verdict_short: 《中国蜻蜓大图鉴》的待定种 2，可能是未描述的新种
+  verdict: >-
+    沿用《中国蜻蜓大图鉴》的“绿色蟌属待定种 2”，很可能是还没被正式描述的物种，也就是北京本地的绿色蟌。
+    iNaturalist 上北京有 86 条绿色蟌记录，大多只鉴定到属，有人鉴定为烟翅绿色蟌 <i>M. mneme</i> 或安氏绿色蟌 <i>M. andersoni</i>，
+    但都有鉴定者指出不对，认为就是大图鉴的待定种 2。这里的照片和统计是北京的全部绿色蟌记录。
+  tips: 中型色蟌，身体金属绿色。北京照片里的雄性翅多为橙褐色，雌性翅透明略带褐色。
+  habitat: 山区溪流，春末夏初（5–6 月）最多。
+# ---------------------------------------------------------------- 丝蟌科
+- id: 69
+  list_cn: 桨尾丝蟌
+  cn: 桨尾丝蟌
+  sci: Lestes sponsa
+  author: (Hansemann, 1823)
+  family: Lestidae
+  status: valid
+  verdict: 学名正确。北京只有 1 条可靠的 iNaturalist 记录（延庆，2020）。
+  tips: 金属绿色的中型豆娘，停落时翅半张开；老熟雄性胸部和腹部两端覆白粉。
+  habitat: 水草茂密的池塘和沼泽。
+- id: 70
+  list_cn: 三叶黄丝蟌
+  cn: 三叶黄丝蟌
+  sci: Sympecma paedisca
+  author: (Brauer, 1877)
+  family: Lestidae
+  status: valid
+  verdict: 学名正确。北京有 2 条 iNaturalist 记录（延庆，2021、2023）。
+  tips: 褐色细长的豆娘，停落时翅合拢在背上；以成虫越冬，早春最先出现。
+  habitat: 池塘和湿地边的枯草丛。
+# ---------------------------------------------------------------- 扇蟌科
+- id: 71
+  list_cn: 白狭扇蟌
+  cn: 白狭扇蟌
+  sci: Pseudocopera annulata
+  author: (Selys, 1863)
+  old: Copera annulata
+  family: Platycnemididae
+  status: doubtful
+  verdict_short: 属名改为 Pseudocopera；北京无公开记录
+  verdict: 物种有效，属名已从 <i>Copera</i> 改回 <i>Pseudocopera</i>（2014 年后）。北京在 iNaturalist 和 GBIF 上都没有记录，中国蜻蜓名录也没有列北京。日本有研究提出黑狭扇蟌可能只是白狭扇蟌的深色型，尚无定论。
+  tips: 细长的豆娘，腹部黑色带白色环节，雄性足白色。
+  habitat: 林荫下的池塘和溪流边。
+- id: 72
+  list_cn: 黑狭扇蟌
+  cn: 黑狭扇蟌
+  sci: Pseudocopera rubripes
+  author: (Navás, 1934)
+  old: Copera tokyoensis
+  family: Platycnemididae
+  status: renamed
+  verdict_short: C. tokyoensis 是 P. rubripes 的异名
+  verdict: 物种没问题，学名应写 <i>Pseudocopera rubripes</i>。于昕和 Hämäläinen 2021 年发表，<i>Copera tokyoensis</i> Asahina, 1948 是它的晚出异名。北京有 15 条 iNaturalist 记录。
+  tips: 细长的豆娘，雄性腹部黑色，腹末有白斑，足红褐色（种名 rubripes 意为“红足”）。
+  habitat: 水草多的池塘和沟渠。
+- id: 73
+  list_cn: 白扇蟌
+  cn: 白扇蟌
+  sci: Platycnemis foliacea
+  author: Selys, 1886
+  family: Platycnemididae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 雄性中、后足的胫节扩大成白色扁片。
+  habitat: 平原河流和湖边草丛。
+
+- id: 74
+  list_cn: 叶足扇蟌
+  cn: 叶足扇蟌
+  sci: Platycnemis phyllopoda
+  author: Djakonov, 1926
+  family: Platycnemididae
+  status: valid
+  verdict: 学名正确，北京最常见的豆娘之一。
+  tips: 雄性中、后足胫节扩大成叶片状的白色“扇子”。
+  habitat: 河流、湖边和公园水边的草丛。
+
+# ---------------------------------------------------------------- 蟌科
+- id: 75
+  list_cn: 翠胸黄蟌
+  cn: 翠胸黄蟌
+  sci: Ceriagrion auranticum
+  author: Fraser, 1922
+  family: Coenagrionidae
+  status: doubtful
+  verdict_short: 南方种，北京无公开记录，最近的在山东
+  verdict: 学名正确（《中国蜻蜓大图鉴》写作亚种 <i>C. a. ryukyuanum</i>，世界蜻蜓名录作为异名）。北京 iNaturalist 上的黄蟌全是赤黄蟌；翠胸黄蟌最北的记录在山东济南、青岛、威海。北京如果出现，应是迷途个体，也要排除误认。
+  tips: 胸部翠绿色，腹部橙红色。
+  habitat: 南方水草多的池塘。
+- id: 76
+  list_cn: 赤黄蟌
+  cn: 赤黄蟌
+  sci: Ceriagrion nipponicum
+  author: Asahina, 1967
+  family: Coenagrionidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 全身橙红色的小豆娘，复眼也偏红。
+  habitat: 水草茂密的池塘和湿地。
+
+- id: 77
+  list_cn: 心斑绿蟌
+  cn: 心斑绿蟌
+  sci: Enallagma cyathigerum
+  author: (Charpentier, 1840)
+  family: Coenagrionidae
+  status: valid
+  verdict: 学名正确，世界蜻蜓名录把 <i>E. risi</i> 作为它的异名。北京有 5 条 iNaturalist 记录。
+  tips: 雄性天蓝色带黑斑，腹部第 2 节背面的黑斑像一枚蘑菇或心形。
+  habitat: 开阔的湖泊和池塘。
+- id: 78
+  list_cn: 东亚异痣蟌
+  cn: 东亚异痣蟌
+  sci: Ischnura asiatica
+  author: (Brauer, 1865)
+  family: Coenagrionidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 很小的豆娘，雄性胸部绿色，腹末第 8–9 节蓝色。
+  habitat: 各种水边草丛，非常常见。
+
+- id: 79
+  list_cn: 长叶异痣蟌
+  cn: 长叶异痣蟌
+  sci: Ischnura elegans
+  author: (Vander Linden, 1820)
+  family: Coenagrionidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 雄性胸部蓝色，腹部第 8 节蓝色；雌性有粉、紫、绿、褐好几种色型。
+  habitat: 池塘和湖边草丛。
+
+- id: 80
+  list_cn: 蓝纹尾蟌
+  cn: 蓝纹尾蟌
+  sci: Paracercion calamorum
+  author: (Ris, 1916)
+  family: Coenagrionidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 雄性蓝色，老熟后胸部和腹部覆白粉。
+  habitat: 池塘、荷塘的浮叶上很常见。
+
+- id: 81
+  list_cn: 隼尾蟌
+  cn: 隼尾蟌
+  sci: Paracercion hieroglyphicum
+  author: (Brauer, 1865)
+  family: Coenagrionidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 雄性蓝色，腹部背面的黑斑形状复杂，种名 hieroglyphicum 意思是“像象形文字的”。
+  habitat: 池塘和湖边草丛。
+
+- id: 82
+  list_cn: 黑背尾蟌
+  cn: 黑背尾蟌
+  sci: Paracercion melanotum
+  author: (Selys, 1876)
+  family: Coenagrionidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 雄性腹部背面大部分黑色，两侧蓝色。
+  habitat: 池塘和湖边的浮叶、草丛。
+
+- id: 83
+  list_cn: 七条尾蟌
+  cn: 七条尾蟌
+  sci: Paracercion plagiosum
+  author: (Needham, 1929)
+  family: Coenagrionidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 尾蟌属里个头较大的一种，雄性淡蓝色，胸部条纹清楚。
+  habitat: 湖泊和池塘边，常停在挺水植物上。
+
+- id: 84
+  list_cn: 捷尾蟌
+  cn: 捷尾蟌
+  sci: Paracercion v-nigrum
+  author: (Needham, 1930)
+  family: Coenagrionidae
+  status: valid
+  verdict: 学名正确，北京常见。
+  tips: 雄性腹部第 2 节背面有一个黑色的“V”形斑，种名 v-nigrum 就是“黑色 V”。
+  habitat: 池塘和湖边草丛。

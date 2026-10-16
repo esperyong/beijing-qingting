@@ -1,0 +1,34 @@
+[
+{
+"why": "any",
+"title": "File:Paracercion v-nigrum (male).jpg",
+"page": "https://commons.wikimedia.org/wiki/File:Paracercion_v-nigrum_(male).jpg",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Paracercion_v-nigrum_%28male%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+"thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Paracercion_v-nigrum_%28male%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"w": 1063,
+"h": 598,
+"license": "CC BY 4.0",
+"license_url": "https://creativecommons.org/licenses/by/4.0",
+"artist": "pintail",
+"credit": "https://www.inaturalist.org/observations/26965718",
+"date": "2019-07-14",
+"desc": "Paracercion v-nigrum (male)",
+"sex": "male"
+},
+{
+"why": "any",
+"title": "File:Paracercion v-nigrum (female).jpg",
+"page": "https://commons.wikimedia.org/wiki/File:Paracercion_v-nigrum_(female).jpg",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Paracercion_v-nigrum_%28female%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+"thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Paracercion_v-nigrum_%28female%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+"w": 1304,
+"h": 734,
+"license": "CC BY 4.0",
+"license_url": "https://creativecommons.org/licenses/by/4.0",
+"artist": "pintail",
+"credit": "https://www.inaturalist.org/observations/32829583",
+"date": "2019-09-16",
+"desc": "Paracercion v-nigrum (female)",
+"sex": "female"
+}
+]

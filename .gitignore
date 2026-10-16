@@ -1,2 +1,9 @@
 .DS_Store
 *.un~
+# 原图和审图用的缩略图：可由 scripts/ 重新下载
+data/cache/orig/
+data/cache/thumb/
+data/cache/zoom/
+data/cache/wol_tree.json
+data/cache/*.log
+__pycache__/

@@ -1,0 +1,256 @@
+# 每个物种选用的照片。src: inat 用 iNaturalist 照片 id；commons 用 Wikimedia Commons 文件名。
+# sex: 雄 / 雌 / 空（性别未标注）；form: 色型（同色系、黄色型……），和 tiers.yaml 对应。
+# 由 scripts/picks_to_yaml.py 从接触印样挑选结果生成，之后可以手改。
+1:
+  - {src: inat, id: 142830499, sex: "雄"}
+  - {src: inat, id: 401361014, sex: "雌"}
+2:
+  - {src: inat, id: 48757747, sex: "雄"}
+  - {src: inat, id: 93274154, sex: "雄"}
+  - {src: inat, id: 59629746, sex: "雌", form: 黄色型}
+3:
+  - {src: inat, id: 220991883, sex: "雄"}
+  - {src: inat, id: 226206461, sex: "雌", form: 黄色型}
+4:
+  - {src: inat, id: 608739257, sex: "雄"}
+  - {src: inat, id: 421901125, sex: "雌"}
+5:
+  - {src: commons, id: "File:Anax nigrofasciatus nigrofasciatus(Male,Japan,2018.06.09).jpg", sex: "雄"}
+  - {src: commons, id: "File:Anax nigrofasciatus nigrofasciatus female1.JPG", sex: "雌"}
+6:
+  - {src: commons, id: "File:Lesser emperor (Anax parthenope) male 2.jpg", sex: "雄"}
+  - {src: commons, id: "File:Anax parthenope qtl1.jpg", sex: "雌"}
+7:
+  - {src: inat, id: 678923731, sex: "雄"}
+  - {src: inat, id: 397593234, sex: "雌"}
+8:
+  - {src: inat, id: 423638131, sex: "雄"}
+  - {src: inat, id: 423637715, sex: "雌"}
+  - {src: inat, id: 155045595, sex: ""}
+9:
+  - {src: inat, id: 315453085, sex: "雄"}
+  - {src: inat, id: 315453648, sex: "雌"}
+10:
+  - {src: inat, id: 318445339, sex: "雄"}
+  - {src: inat, id: 140833551, sex: "雌"}
+12:
+  - {src: inat, id: 407951376, sex: ""}
+13:
+  - {src: inat, id: 46703546, sex: "雄"}
+  - {src: inat, id: 220650329, sex: "雌"}
+14:
+  - {src: inat, id: 291676035, sex: "雄"}
+  - {src: inat, id: 291674721, sex: "雌"}
+15:
+  - {src: inat, id: 295939429, sex: "雄"}
+  - {src: inat, id: 295939907, sex: "雌"}
+16:
+  - {src: inat, id: 389901677, sex: "雄"}
+  - {src: inat, id: 22290985, sex: "雌"}
+17:
+  - {src: inat, id: 7933523, sex: "雄"}
+  - {src: inat, id: 24361366, sex: "雌"}
+18:
+  - {src: inat, id: 19782761, sex: "雄"}
+  - {src: inat, id: 392417525, sex: "雌"}
+19:
+  - {src: inat, id: 220695662, sex: "雄"}
+  - {src: inat, id: 324030009, sex: "雌"}
+20:
+  - {src: inat, id: 291678283, sex: "雄"}
+  - {src: commons, id: "File:Sieboldius albardae (female).jpg", sex: "雌"}
+21:
+  - {src: inat, id: 60199120, sex: "雄"}
+  - {src: commons, id: "File:Gomphidae, Nagai Park, Osaka.jpg", sex: "雌"}
+22:
+  - {src: inat, id: 368156963, sex: "雄"}
+  - {src: inat, id: 637575446, sex: ""}
+23:
+  - {src: inat, id: 298489977, sex: "雄"}
+  - {src: inat, id: 291672821, sex: "雌"}
+24:
+  - {src: inat, id: 295021596, sex: "雄"}
+  - {src: inat, id: 77625149, sex: "雌"}
+25:
+  - {src: inat, id: 34855457, sex: "雄"}
+  - {src: inat, id: 276955917, sex: "雌"}
+26:
+  - {src: inat, id: 214053801, sex: "雄"}
+  - {src: inat, id: 251969314, sex: "雌"}
+  - {src: inat, id: 252419549, sex: "雌"}
+27:
+  - {src: inat, id: 455479050, sex: "雄"}
+  - {src: inat, id: 330940845, sex: "雌"}
+28:
+  - {src: inat, id: 59326094, sex: "雄"}
+  - {src: inat, id: 532149143, sex: "雌"}
+29:
+  - {src: commons, id: "File:Epophthalmia elegans elegans(Male,Japan,2017.08.30,c).jpg", sex: "雄"}
+  - {src: inat, id: 59613397, sex: "雌"}
+  - {src: inat, id: 148245747, sex: ""}
+30:
+  - {src: inat, id: 291676591, sex: "雄"}
+  - {src: inat, id: 291677309, sex: "雌"}
+31:
+  - {src: inat, id: 59327529, sex: "雄"}
+33:
+  - {src: inat, id: 303803543, sex: "雄"}
+  - {src: inat, id: 302896032, sex: "雌"}
+34:
+  - {src: commons, id: "File:Ditch jewel (Brachythemis contaminata) immature male Ben Tre.jpg", sex: "雄"}
+  - {src: commons, id: "File:Brachythemis contaminata female (1), Burdwan, West Bengal, India 04 10 2012.JPG", sex: "雌"}
+35:
+  - {src: inat, id: 303279644, sex: "雄"}
+  - {src: inat, id: 230364398, sex: "雌"}
+36:
+  - {src: inat, id: 90401008, sex: "雄"}
+  - {src: inat, id: 148189636, sex: "雌"}
+  - {src: commons, id: "File:Deielia phaon(Female,Japan,2017.09.12,b).jpg", sex: "雌", form: 同色系}
+37:
+  - {src: inat, id: 501180824, sex: "雄"}
+  - {src: inat, id: 375449347, sex: "雌"}
+38:
+  - {src: commons, id: "File:Libellula quadrimaculata qtl2.jpg", sex: "雄"}
+  - {src: commons, id: "File:2013.05.18.-28-Kirschgartshaeuser Schlaege Mannheim-Vierfleck-Weibchen.jpg", sex: "雌"}
+39:
+  - {src: commons, id: "File:White-tailed skimmer (Orthetrum albistylum albistylum) male Greece.jpg", sex: "雄"}
+  - {src: commons, id: "File:Orthetrum albistylum (young female) (1).JPG", sex: "雌"}
+  - {src: commons, id: "File:Female Orthetrum albistylum on the leaf.jpg", sex: "雌", form: 同色系}
+40:
+  - {src: inat, id: 343684741, sex: "雄"}
+  - {src: inat, id: 221670487, sex: "雄"}
+  - {src: inat, id: 557561677, sex: "雌"}
+41:
+  - {src: commons, id: "File:Black-tailed skimmer (Orthetrum cancellatum) male 2 Postojna.jpg", sex: "雄"}
+  - {src: commons, id: "File:Großer Blaupfeil, Weibchen (Juli 2026).jpg", sex: "雌"}
+42:
+  - {src: inat, id: 122333359, sex: "雄"}
+  - {src: inat, id: 35811800, sex: "雌"}
+43:
+  - {src: inat, id: 86687744, sex: "雄"}
+  - {src: inat, id: 19228601, sex: "雌"}
+44:
+  - {src: commons, id: "File:Orthetrum melania (male s4).JPG", sex: "雄"}
+  - {src: commons, id: "File:Orthetrum melania (female s2).JPG", sex: "雌"}
+45:
+  - {src: inat, id: 90774208, sex: "雄"}
+  - {src: inat, id: 300755167, sex: ""}
+46:
+  - {src: commons, id: "File:Pantala flavescens (globe skimmer) in flight, side view.jpg", sex: "雄"}
+  - {src: inat, id: 161017745, sex: "雌"}
+47:
+  - {src: commons, id: "File:Pseudothemis zonata male3.JPG", sex: "雄"}
+  - {src: inat, id: 410796820, sex: "雌"}
+48:
+  - {src: commons, id: "File:Rhyothemis fuliginosa,2017-07-16.jpg", sex: "雄"}
+  - {src: inat, id: 205915511, sex: "雌"}
+  - {src: commons, id: "File:Rhyothemis fuliginosa.JPG", sex: ""}
+49:
+  - {src: inat, id: 28464815, sex: "雄"}
+  - {src: inat, id: 81136500, sex: "雌"}
+50:
+  - {src: commons, id: "File:Sympetrum croceolum(Male,Japan,2017.10.25).jpg", sex: "雄"}
+  - {src: commons, id: "File:Sympetrum croceolum(Female,Japan,2017.10.08).jpg", sex: "雌"}
+51:
+  - {src: commons, id: "File:Sympetrum danae 1(loz).jpg", sex: "雄"}
+  - {src: commons, id: "File:Sympetrum danae 3(loz).jpg", sex: "雌"}
+52:
+  - {src: commons, id: "File:Sympetrum darwinianum(Male,Japan,2017.09.21).jpg", sex: "雄"}
+  - {src: commons, id: "File:Sympetrum darwinianum female a3.JPG", sex: "雌"}
+53:
+  - {src: inat, id: 418805343, sex: "雄"}
+  - {src: inat, id: 235536381, sex: "雌"}
+54:
+  - {src: commons, id: "File:Sympetrum eroticum (male side).JPG", sex: "雄"}
+  - {src: commons, id: "File:Sympetrum eroticum (female s2).JPG", sex: "雌"}
+55:
+  - {src: commons, id: "File:Sympetrum flaveolum - side (aka).jpg", sex: "雄"}
+  - {src: commons, id: "File:Sympetrum flaveolum female (side view) - Kulna.jpg", sex: "雌"}
+56:
+  - {src: commons, id: "File:Sympetrum fonscolombii 2025 05 30.jpg", sex: "雄"}
+  - {src: commons, id: "File:Sympetrum fonscolombii, female, Sète cf06.jpg", sex: "雌"}
+57:
+  - {src: inat, id: 50587293, sex: "雄"}
+  - {src: inat, id: 104806138, sex: "雌"}
+58:
+  - {src: inat, id: 218147750, sex: "雄"}
+  - {src: inat, id: 218147820, sex: "雌"}
+59:
+  - {src: inat, id: 221354151, sex: "雄"}
+  - {src: inat, id: 284102707, sex: "雌"}
+60:
+  - {src: inat, id: 10077191, sex: "雄"}
+  - {src: commons, id: "File:Sympetrum speciosum (female).jpg", sex: "雌"}
+61:
+  - {src: commons, id: "File:Sympetrum striolatum macho, Jardín Botánico, Múnich, Alemania, 2013-09-08, DD 01.JPG", sex: "雄"}
+  - {src: commons, id: "File:2012.09.20.-6-Mannheim Vogelstang-Große Heidelibelle-Weibchen.jpg", sex: "雌"}
+62:
+  - {src: inat, id: 13479348, sex: "雄"}
+  - {src: inat, id: 49036765, sex: "雌"}
+63:
+  - {src: commons, id: "File:Sympetrum vulgatum LC284.jpg", sex: "雄"}
+  - {src: commons, id: "File:Female Sympetrum vulgatum on leaf 2.JPG", sex: "雌"}
+64:
+  - {src: inat, id: 339863021, sex: "雄"}
+  - {src: inat, id: 49026461, sex: "雌"}
+65:
+  - {src: commons, id: "File:Crimson marsh glider (Trithemis aurora) male Bardiya.jpg", sex: "雄"}
+  - {src: commons, id: "File:Crimson marsh glider (Trithemis aurora) female Rajasthan.jpg", sex: "雌"}
+66:
+  - {src: commons, id: "File:Ryukyu Atrocalopteryx Atrata (30206094624).jpg", sex: "雄"}
+  - {src: inat, id: 149312579, sex: "雌"}
+67:
+  - {src: inat, id: 612975001, sex: "雄"}
+  - {src: inat, id: 571041280, sex: "雌"}
+68:
+  - {src: inat, id: 285831390, sex: "雄"}
+  - {src: inat, id: 285833966, sex: "雌"}
+  - {src: inat, id: 520716264, sex: ""}
+69:
+  - {src: commons, id: "File:Lestes sponsa LC0314.jpg", sex: "雄"}
+  - {src: commons, id: "File:Lestes sponsa LC0174.jpg", sex: "雌"}
+70:
+  - {src: commons, id: "File:Sympecma fusca male 01.png", sex: "雄"}
+  - {src: inat, id: 236104104, sex: "雌"}
+71:
+  - {src: commons, id: "File:Copera annulata (male).JPG", sex: "雄"}
+  - {src: commons, id: "File:Copera annulata(Female,Japan,2018.07.17).jpg", sex: "雌"}
+72:
+  - {src: inat, id: 295838229, sex: "雄"}
+  - {src: inat, id: 205440668, sex: "雌"}
+73:
+  - {src: inat, id: 210563593, sex: "雄"}
+  - {src: inat, id: 150933514, sex: "雌"}
+74:
+  - {src: inat, id: 77734836, sex: "雄"}
+  - {src: inat, id: 90401132, sex: "雌"}
+75:
+  - {src: inat, id: 19792358, sex: "雄"}
+  - {src: inat, id: 618081186, sex: "雌"}
+76:
+  - {src: inat, id: 599207063, sex: "雄"}
+  - {src: inat, id: 140903738, sex: "雌"}
+77:
+  - {src: commons, id: "File:Enallagma cyathigerum 8(loz).jpg", sex: "雄"}
+  - {src: commons, id: "File:Damselfly 05 (MK).jpg", sex: "雌"}
+78:
+  - {src: commons, id: "File:Ischnura asiatica (male s4).jpg", sex: "雄"}
+  - {src: commons, id: "File:Ischnura asiatica (female s5).jpg", sex: "雌"}
+79:
+  - {src: commons, id: "File:Ischnura elegans 18(loz).jpg", sex: "雄"}
+  - {src: commons, id: "File:Ischnura elegans LC0356.jpg", sex: "雌"}
+80:
+  - {src: commons, id: "File:Dusky Lily Squatter (Paracercion calamorum) male (43933236144).jpg", sex: "雄"}
+  - {src: inat, id: 357184585, sex: "雌"}
+81:
+  - {src: inat, id: 142105280, sex: "雄"}
+  - {src: inat, id: 145994308, sex: "雌"}
+82:
+  - {src: inat, id: 147402471, sex: "雄"}
+  - {src: inat, id: 97550212, sex: "雌"}
+83:
+  - {src: inat, id: 149599704, sex: "雄"}
+  - {src: inat, id: 289934474, sex: "雌"}
+84:
+  - {src: inat, id: 18707947, sex: "雄"}
+  - {src: commons, id: "File:Paracercion v-nigrum (female).jpg", sex: "雌"}
